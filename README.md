@@ -5,9 +5,7 @@
 <img src="https://gralhix.com/wp-content/uploads/2023/08/osintexercise006.webp" />
 
 <h2>Objective</h2>
-<p>Verify whether the image used in a tweet about a TTP attack in 
-Khyber, Pakistan actually depicts the event described, using 
-reverse image search and open-source verification methods. </p>
+<p>Verify that the image used in the tweet is not of the event described. </p>
 
 <h2>Skills Practiced</h2>
 <ul style="list-style-type: '- '; padding-left: 20px;">
@@ -33,9 +31,9 @@ reverse image search and open-source verification methods. </p>
 
 <i>Ref 1: Google Lens result showing Baghdad bombing context</i>
 
-The AI overview flagged the image as related to a bombing in Baghdad, 
-Iraq, <b>2006</b> and noted its prior misuse on social media for unrelated events, including attacks in Pakistan.
-As It was just an overveiw so nohting can be concluded from this search alone.
+<p>The AI overview flagged the image as related to a bombing in Baghdad, 
+Iraq, <b>2006</b> and noted its prior misuse on social media for unrelated events, including attacks in Pakistan.<br><br>
+As it was just an overview so nothing can be concluded from this search alone.</p>
 
 <h3>Step 2 — Establishing the Original Date</h3>
 
@@ -45,30 +43,29 @@ As It was just an overveiw so nohting can be concluded from this search alone.
 
 <i>Ref 2: Google AI Mode Search results showing April 14, 2005</i>
 
-The original date of the bombing in Baghdad, Iraq is <b>April 14, 2005</b>.
+<p>The original date of the bombing in Baghdad, Iraq is <b>April 14, 2005</b>.
 U.S. military metadata (VIRIN: 050414-A-3240S-026) confirms the image 
-was captured live by <b>Spc. Ronald Shaw Jr.</b>. on <b>April 14, 2005</b>. An earlier 
-2006 reference was a mislabeling error in archival records.
-
-This shows that the tweet image may be the incorrect image of the depicted event.
+was captured live by <b>Spc. Ronald Shaw Jr.</b> on <b>April 14, 2005</b>. An earlier 
+2006 reference was a mislabeling error in archival records.<br><br>
+This confirms the image predates the Pakistan incident by nearly 18 years.</p>
 
 <h3>Step 3 — TinEye</h3>
-Then I used TinEye (TinEye is a reverse image search engine that lets you find the original source of an image,
-track where it appears online, and discover if it has been altered or stolen) for a reverse image search.
+<p>Then I used TinEye (TinEye is a reverse image search engine that lets you find the original source of an image,
+track where it appears online, and discover if it has been altered or stolen) for a reverse image search.</p>
 
 <img width="825" height="488" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/aed1c546-7993-4b4a-a995-7009a9d65461" />
 
 <i>Ref 3: TinEye results showing Alamy as the first indexed result</i>
 
-The earliest indexed appearance pointed to an Alamy stock listing(Alamy is a massive online content marketplace and
-stock photography agency)  dated <b>Dec 6, 2023</b> — likely the upload date, not the capture date.
+<p>The earliest indexed appearance pointed to an Alamy stock listing(Alamy is a massive online content marketplace and
+stock photography agency)  dated <b>Dec 6, 2023</b> — likely the upload date, not the capture date.</p>
 
 <img width="801" height="497" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/1951a3a3-e343-4e36-ad60-1ba513c62ba2" />
 
-<i>Ref 3.1: Alamy Webpage showig the capture date of the image</i>
+<i>Ref 3.1: Alamy Webpage showing the capture date of the image</i>
 
-After clicking on it, it revealed the Date of Capture,i.e., <b>28 August 2006</b>(although not exactly the correct date), 
-which further verified that the tweet image is the wrong one.
+<p>After clicking on it, it revealed the Date of Capture,i.e., <b>28 August 2006</b>(earlier than the tweet but still post-dating the confirmed 2005 capture), 
+which further verified that the tweet image is the wrong one.</p>
 
 <h3>Step 4 — Verifying the Pakistan Incident</h3>
 
@@ -78,8 +75,8 @@ which further verified that the tweet image is the wrong one.
 
 <i>Ref 4: SATP database confirming the January 19, 2023 TTP attack</i>
 
-Using the AI mode again I found that the attack did occur on <b>January 19, 2023</b>, and did kill three Pakistani 
-police constables — the tweet's text was accurate, only the image was wrong.
+<p>Using the AI mode again I found that the attack did occur on <b>January 19, 2023</b>, and did kill three Pakistani 
+police constables — the tweet's text was accurate, only the image was wrong.</p>
 
 <h2>Findings</h2>
 <ul style="list-style-type: '- '; padding-left: 20px;">
@@ -90,5 +87,7 @@ police constables — the tweet's text was accurate, only the image was wrong.
 </ul>
 
 <h2>References</h2>
-1. [Image source — Wikimedia/Wiktionary](https://he.wiktionary.org/wiki/%D7%A7%D7%95%D7%91%D7%A5:Car_bomb_in_Iraq.jpg)
-2. [SATP — Pakistan Khyber Pakhtunkhwa 2023](https://www.satp.org/terrorism-assessment/pakistan-khyberpakhtunkhwa-2023)
+<ol>
+  <li><a href="https://he.wiktionary.org/wiki/%D7%A7%D7%95%D7%91%D7%A5:Car_bomb_in_Iraq.jpg">Image source — Wikimedia/Wiktionary</a></li>
+  <li><a href="https://www.satp.org/terrorism-assessment/pakistan-khyberpakhtunkhwa-2023">SATP — Pakistan Khyber Pakhtunkhwa 2023</a></li>
+</ol>
