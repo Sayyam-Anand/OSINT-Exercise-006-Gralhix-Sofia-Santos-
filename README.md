@@ -17,16 +17,15 @@
 
 <h2>Tools Used</h2>
 <ul style="list-style-type: '- '; padding-left: 20px;">
-  <li>Google Lens — initial reverse image search</li>
-  <li>Conflict Databases (SATP) — Verifying the factual accuracy of the text vs. the image</li>
-  <li>TinEye — Tracing the earliest indexed appearances of the image to find the original source</li>
-  <li>Commercial Stock Archives (Alamy) — Verifying licensing dates and photographer credit</li>
-  <li>Image Metadata & VIRIN Analysis — Identifying and decoding official military record numbers (VIRIN)</li>
+  <li>South Asia Terrorism Portal (SATP) — Fact-checking incident dates and casualties in the Khyber Pakhtunkhwa region.</li>
+  <li>TinEye — Reverse image search used to establish the earliest indexed appearance of the media.</li>
+  <li>Alamy Imagery Archive — Cross-referencing commercial stock metadata against official records.</li>
+  <li>Visual Information Record Identification Number (VIRIN) Analysis — Decoding military metadata to verify capture dates and locations. (VIRIN)</li>
 </ul>
 
 <h2>Process</h2>
 
-<h3>Step 1 — Google Lens:  Source Identification & Metadata Extraction</h3>
+<h3>Step 1 — Identifying the Media Source</h3>
 
 <img width="654" height="257" alt="595056524-b1f9bc65-ded2-4525-a8d8-9eb688fafbdc" src="https://github.com/user-attachments/assets/e8f704b3-f183-484f-83bf-6e410e4997f8" />
 
@@ -44,12 +43,12 @@ As it was just an overview so nothing can be concluded from this search alone.</
 
 <i>Ref 2: Google Search results showing April 14, 2005</i>
 
-<p>While several social media posts misattributed the image to an incident in Pakistan, I successfully traced the image to an official U.S. military record.I identified the VIRIN (Visual Information Record Identification Number): 050414-A-3240S-026. In OSINT, a VIRIN is a goldmine for verification because the first six digits (050414) represent the capture date in YYMMDD format. This immediately proved the image was captured on April 14, 2005, nearly 18 years before the tweet's claim. <br><br>U.S. military metadata confirms the image 
+<p>I identified the official U.S. Military VIRIN (050414-A-3240S-026) associated with the photo. I decoded the first six digits (050414) which follow the standard YYMMDD format, confirming the image was captured on April 14, 2005. This technical metadata immediately provided irrefutable proof that the image predates the 2023 Pakistan incident by 18 years. <br><br>U.S. military metadata confirms the image 
 was captured live by <b>Spc. Ronald Shaw Jr.</b> on <b>April 14, 2005</b>.<br><br>
 
-<h3>Step 2.1 — Verification of Discrepancies</h3>
+<h3>Step 2.1 — Verification of Discrepancies: Resolving the Conflict</h3>
 <br>
-<p>Analysis: Resolving the 2005 vs. 2006 Discrepancy During my search, I found a conflict: an Alamy stock listing cited the date as August 28, 2006. However, by cross-referencing the VIRIN and the photographer (Spc. Ronald Shaw Jr.), I confirmed that the 2006 date was an archival mislabeling error. This step was crucial because it demonstrated that commercial stock sites can sometimes contain incorrect metadata, and official military records should be the "source of truth."
+<p>During verification, I encountered a discrepancy where an Alamy archive listed the capture date as August 28, 2006. By cross-referencing this against the official Army VIRIN and the photographer's credit (Spc. Ronald Shaw Jr.), I determined the 2006 date was an archival entry error. This step was vital to ensure the highest level of evidentiary accuracy."
 </p><br>
 
 <h3>Step 3 — TinEye</h3>
