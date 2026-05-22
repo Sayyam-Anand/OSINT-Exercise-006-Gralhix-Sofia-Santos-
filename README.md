@@ -17,37 +17,40 @@
 
 <h2>Tools Used</h2>
 <ul style="list-style-type: '- '; padding-left: 20px;">
-  <li>Google Lens — initial reverse image search and AI overview</li>
-  <li>Google AI Mode Search — date verification and incident confirmation</li>
-  <li>TinEye — tracing earliest online appearances of the image</li>
-  <li>Alamy — stock image metadata and date reference</li>
+  <li>Google Lens — initial reverse image search</li>
+  <li>Conflict Databases (SATP) — Verifying the factual accuracy of the text vs. the image</li>
+  <li>TinEye — Tracing the earliest indexed appearances of the image to find the original source</li>
+  <li>Commercial Stock Archives (Alamy) — Verifying licensing dates and photographer credit</li>
+  <li>Image Metadata & VIRIN Analysis — Identifying and decoding official military record numbers (VIRIN)</li>
 </ul>
 
 <h2>Process</h2>
 
-<h3>Step 1 — Google Lens</h3>
+<h3>Step 1 — Google Lens:  Source Identification & Metadata Extraction</h3>
 
-<img width="700" height="350" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/b1f9bc65-ded2-4525-a8d8-9eb688fafbdc" />
+<img width="654" height="257" alt="595056524-b1f9bc65-ded2-4525-a8d8-9eb688fafbdc" src="https://github.com/user-attachments/assets/e8f704b3-f183-484f-83bf-6e410e4997f8" />
 
 <i>Ref 1: Google Lens result showing Baghdad bombing context</i>
 
-<p>The AI overview flagged the image as related to a bombing in Baghdad, 
+<p>The search flagged the image as related to a bombing in Baghdad, 
 Iraq, <b>2006</b> and noted its prior misuse on social media for unrelated events, including attacks in Pakistan.<br><br>
 As it was just an overview so nothing can be concluded from this search alone.</p>
 
-<h3>Step 2 — Establishing the Original Date</h3>
+<h3>Step 2 — Establishing the Original Date: The "VIRIN" Discovery</h3>
 
 <img width="676" height="258" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/91e77aa5-9648-46ee-8912-a355b5fe26e2" />
 
 <img width="690" height="269" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/fe41f9f0-55ba-4298-b2d7-189b54691e18" />
 
-<i>Ref 2: Google AI Mode Search results showing April 14, 2005</i>
+<i>Ref 2: Google Search results showing April 14, 2005</i>
 
-<p>The original date of the bombing in Baghdad, Iraq is <b>April 14, 2005</b>.
-U.S. military metadata (VIRIN: 050414-A-3240S-026) confirms the image 
-was captured live by <b>Spc. Ronald Shaw Jr.</b> on <b>April 14, 2005</b>. An earlier 
-2006 reference was a mislabeling error in archival records.<br><br>
-This confirms the image predates the Pakistan incident by nearly 18 years.</p>
+<p>While several social media posts misattributed the image to an incident in Pakistan, I successfully traced the image to an official U.S. military record.I identified the VIRIN (Visual Information Record Identification Number): 050414-A-3240S-026. In OSINT, a VIRIN is a goldmine for verification because the first six digits (050414) represent the capture date in YYMMDD format. This immediately proved the image was captured on April 14, 2005, nearly 18 years before the tweet's claim. <br><br>U.S. military metadata confirms the image 
+was captured live by <b>Spc. Ronald Shaw Jr.</b> on <b>April 14, 2005</b>.<br><br>
+
+<h3>Step 2.1 — Verification of Discrepancies</h3>
+<br>
+<p>Analysis: Resolving the 2005 vs. 2006 Discrepancy During my search, I found a conflict: an Alamy stock listing cited the date as August 28, 2006. However, by cross-referencing the VIRIN and the photographer (Spc. Ronald Shaw Jr.), I confirmed that the 2006 date was an archival mislabeling error. This step was crucial because it demonstrated that commercial stock sites can sometimes contain incorrect metadata, and official military records should be the "source of truth."
+</p><br>
 
 <h3>Step 3 — TinEye</h3>
 <p>Then I used TinEye (TinEye is a reverse image search engine that lets you find the original source of an image,
@@ -67,7 +70,7 @@ stock photography agency)  dated <b>Dec 6, 2023</b> — likely the upload date, 
 <p>After clicking on it, it revealed the Date of Capture,i.e., <b>28 August 2006</b>(earlier than the tweet but still post-dating the confirmed 2005 capture), 
 which further verified that the tweet image is the wrong one.</p>
 
-<h3>Step 4 — Verifying the Pakistan Incident</h3>
+<h3>Step 4 — Verifying the Pakistan Incident (SATP Database)</h3>
 
 <img width="1124" height="369" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/23540144-b3f5-4c0d-946b-7b03930b2593" />
 
@@ -75,8 +78,7 @@ which further verified that the tweet image is the wrong one.</p>
 
 <i>Ref 4: SATP database confirming the January 19, 2023 TTP attack</i>
 
-<p>Using the AI mode again I found that the attack did occur on <b>January 19, 2023</b>, and did kill three Pakistani 
-police constables — the tweet's text was accurate, only the image was wrong.</p>
+<p>To determine if the tweet was entirely fabricated or just misillustrated, I used the South Asia Terrorism Portal (SATP). I confirmed that a TTP attack did occur on January 19, 2023, resulting in the deaths of three police constables</p>
 
 <h2>Findings</h2>
 <ul style="list-style-type: '- '; padding-left: 20px;">
@@ -84,7 +86,11 @@ police constables — the tweet's text was accurate, only the image was wrong.</
   <li>It originates from a car bombing in Baghdad, Iraq, on April 14, 2005.</li>
   <li>The tweet's text was accurate but illustrated with an unrelated image.</li>
   <li>This is a case of <strong>media misattribution</strong> — a common disinformation pattern.</li>
-</ul>
+</ul><br>
+
+<h2>Conclusion</h2>
+<br>
+<p>This is a case of Media Misattribution. The text of the tweet was factually accurate, but the user used an unrelated, high-impact photo from the Iraq War to increase engagement or sensationalise the event</p> <br>                                                               
 
 <h2>References</h2>
 <ol>
